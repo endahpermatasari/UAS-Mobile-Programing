@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aishi.mabokonline.AddFragment"
+    android:weightSum="1">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Browse Image"
+       android:onClick="brouseImages"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:id="@+id/insertImages"
+        android:src="@mipmap/ic_launcher"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:id="@+id/insertName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Information Event"
+        android:id="@+id/insertInfo"
+        android:layout_weight="0.91" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="uploadData"
+        android:text="Upload Data"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "147518247844",
+    "firebase_url": "https://mabokonline.firebaseio.com",
+    "project_id": "mabokonline",
+    "storage_bucket": "mabokonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147518247844:android:cf8d02dd06bb2a0a",
+        "android_client_info": {
+          "package_name": "com.example.aishi.mabokonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147518247844-sl2dcpkpnl0qg2adoiotc3q7u1cnmafs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aishi.mabokonline",
+            "certificate_hash": "4eb2dd5c738bdca950e7706df97f3ffcf973cacc"
+          }
+        },
+        {
+          "client_id": "147518247844-gs2bmoqlbp3lbirqqbjctjc43fksfsh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOagF-2rLLYWj0571WuK0R7mPd81MfPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147518247844-gs2bmoqlbp3lbirqqbjctjc43fksfsh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
